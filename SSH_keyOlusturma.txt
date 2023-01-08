@@ -1,0 +1,15 @@
+SSH key olsuturuken:
+
+Git bash ac
+asagidaki satirdaki komutu kulanici-adi yazan yere kendi kullanici adini yazarak calistir.
+
+ssh-keygen -t ed25519 -C "kullanici-adi@github.com"
+
+Senden bir dosya adi isteyecek id_ed25519 yazabilirsin ya da baska birsey
+Senden passphrase isteyecek. Buraya bir sifre gir. Hatırlayacağın birşey olsun :)
+
+Sonra calistirdigin dizinde verdigin dosya adi ve .pub uzantılıo dosyalar olusturulaacak
+.pub olanın içindekini SSH ekleme kısmından ekle. 
+
+Daha sonra push yapmak istediğinde passphrase isteyecek. 
+
